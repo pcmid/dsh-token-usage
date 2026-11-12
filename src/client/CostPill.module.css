@@ -7,7 +7,10 @@
 .root {
   position: relative;
   display: inline-flex;
-  min-width: 0;
+  /* The cost figure has no ellipsis, so a narrow dock (a phone) must shrink the
+   * official pills instead; a shrunk root lets the figure overflow onto the
+   * context meter beside it. */
+  flex-shrink: 0;
 }
 
 /* Trigger pill — the official StatsPills .pill, kept field-for-field:
