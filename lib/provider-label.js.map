@@ -1,0 +1,1 @@
+{"version":3,"file":"provider-label.js","sourceRoot":"","sources":["../src/provider-label.ts"],"names":[],"mappings":"AAAA;;;;;;GAMG;AAKH;;;;;;;;GAQG;AACH,MAAM,UAAU,aAAa,CAAC,EAAU,EAAE,KAAmC;IAC3E,MAAM,IAAI,GAAG,KAAK,EAAE,CAAC,EAAE,CAAC,CAAA;IACxB,OAAO,IAAI,KAAK,SAAS,IAAI,IAAI,KAAK,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,EAAE,CAAA;AACtD,CAAC"}

@@ -1,6 +1,6 @@
 node_modules/
-# Build output — enters the npm tarball via prepublishOnly, never the repo (see docs/decisions/)
-lib/
+# Build output is committed on this fork's pcmid branch: DSH installs the fork from Git, which
+# does not run prepublishOnly. Rebuild with `pnpm run build:all` before committing source changes.
 *.tsbuildinfo
 .npm-cache/
 # Local pnpm content-addressable store (fallback when the global store is unwritable)
